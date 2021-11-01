@@ -1,0 +1,131 @@
+/* Página */
+#singleServico {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+/* Conteúdo 1 */
+.conteudo_servicos {
+    float: left;
+    width: 100%;
+	padding: 0 0 50px 0;
+}
+
+.conteudo_servicos .borda {
+	margin: 15px 0 35px 0;
+}
+
+/* Conteúdo 2 */
+.conteudo_exames {
+    float: left;
+    width: 100%;
+	padding: 0 0 70px 0
+}
+
+.conteudo_exames .conteudo p {
+	color: #fff;
+}
+
+.conteudo_exames .listaConteudos {
+    margin-bottom: 70px;
+}
+
+.conteudo_exames .listaConteudos .card {
+    float: left;
+    border: 0;
+    width: 100%;
+    margin: 0!important;
+    padding-bottom: 10px;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    background: none;
+}
+
+.conteudo_exames .listaConteudos .card button {
+	padding: 20px 15px;
+	cursor: pointer;
+	border: 0;
+	width: 100%;
+	text-align: center;
+	background: #F2F2F2;
+	float: left;
+	position: relative;
+}
+
+.conteudo_exames .listaConteudos .card button h2 {
+	padding: 0 0 0 30px;
+    color: #1771B0;
+    width: calc(100% - 50px);
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.conteudo_exames .listaConteudos .card button span {
+    float: left;
+	color: #002D47;
+	font-size: 30px;
+	position: absolute;
+	right: 5px;
+	top: calc(50% - 27px);
+}
+
+.conteudo_exames .listaConteudos .card button span.menos {
+	display: inline-block;
+	right: 35px;
+}
+
+.conteudo_exames .listaConteudos .card button span.mais {
+	display: none;
+}
+
+.conteudo_exames .listaConteudos .card button.collapsed span.mais {
+	display: inline-block!important;
+	padding-right: 30px;
+}
+
+.conteudo_exames .listaConteudos .card button.collapsed span.menos {
+	display: none!important;
+}
+
+.conteudo_exames .listaConteudos .card .boxConteudo {
+	padding: 0 30px 20px 30px;
+	float: left;
+    width: 100%;
+	background: #F2F2F2;
+}
+
+.conteudo_exames .listaConteudos .card .boxConteudo p {
+	color: #757575!important;
+	margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+
+	.conteudo_exames {
+		padding: 0px 0 40px 0;
+	}
+
+	.conteudo_exames .listaConteudos .card button {
+		padding: 15px 15px 5px 15px;
+	}
+
+	.conteudo_exames .listaConteudos .card .boxConteudo {
+		padding: 0 15px 20px 15px;
+	}
+
+	.conteudo_exames .listaConteudos .card button.collapsed span.mais {
+		padding-right: 10px;
+	}
+
+	.conteudo_exames .listaConteudos .card button span.menos {
+		right: 5px;
+		padding-right: 10px;
+	}
+	
+}

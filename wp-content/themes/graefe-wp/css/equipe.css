@@ -1,0 +1,91 @@
+/* Equipe */
+
+/* Geral */
+#pagina_equipe {
+    width: 100%;
+    float: left;
+    padding: 40px 0 60px;
+}
+
+#pagina_equipe .interno {
+    padding: 10px;
+}
+
+#pagina_equipe .interno .textoBox {
+    margin: 15px 0;
+}
+
+#pagina_equipe .interno img {
+    border: 3px solid #63C2D6;
+    border-radius: 75px;
+    padding: 6px;
+}
+
+#pagina_equipe .crmDoutor {
+    width: 100%;
+    float: left;
+    color: #51A7B6;
+    font-size: 17px;
+    line-height: 160%;
+}
+
+#pagina_equipe .tituloDoutor {
+    color: #002D47;
+    font-size: 30px;
+    float: left;
+    line-height: 130%;
+    margin: 20px 0 10px;
+}
+
+#pagina_equipe ul {
+    padding: 0 20px;
+}
+
+/* Conteúdo 1 */
+.conteudo_equipe {
+    width: 100%;
+    float: left;
+    margin: 0 0 30px 0;
+}
+
+.conteudo_equipe .borda {
+    margin: 20px 0;
+}
+
+/* Conteúdo 2 */
+.conteudo_faria {
+    width: 100%;
+    float: left;
+    padding: 0 0 45px 0;
+}
+
+@media (max-width: 768px) {
+
+    .conteudo_equipe {
+        margin: 0;
+    }
+
+    .conteudo_equipe .borda {
+        width: 135px;
+    }
+
+    .conteudo_equipe h1 {
+        font-size: 35px;
+    }
+
+    #pagina_equipe .interno{
+        padding: 10px 0;
+        float: left;
+    }
+
+    #pagina_equipe .tituloDoutor {
+        line-height: 130%;
+        padding: 0;
+    }
+
+    /* Conteúdo 2 */
+    .conteudo_faria {
+        padding: 0px 0 10px 0;
+    }
+
+}

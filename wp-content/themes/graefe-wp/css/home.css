@@ -1,0 +1,263 @@
+/*********************************************
+** Home
+*********************************************/
+
+/* Geral */
+#paginaInicial {
+	float: left;
+	width: 100%;
+}
+
+.tituloPrincipal {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.tituloPrincipal.center {
+    text-align: center;
+    margin-bottom: 45px;;
+}
+
+.tituloPrincipal .boxInterno.center {
+    text-align: center;
+}
+
+.tituloPrincipal .borda {
+    width: 155px;
+    height: 7px;
+    margin: 25px 0;
+}
+
+.btnMeio {
+    text-align: center;
+}
+
+
+/* Conteúdo 1 */
+.conteudo_consulta {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    margin: 10px 0 10px 0;
+}
+
+.conteudo_consulta .textoBox {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.conteudo_consulta .texto {
+    padding: 0;
+    float: left;
+}
+
+/* Conteúdo 2 */
+.conteudo_listagem {
+    float: left;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.conteudo_listagem .lista {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.conteudo_listagem .botaoGeral {
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+.conteudo_listagem .textoBox {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.conteudo_listagem .texto {
+    padding-left: 50px;
+}
+
+.conteudo_listagem ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.conteudo_listagem ul li {
+    margin: 0px 5px;
+}
+
+.conteudo_listagem ul li span {
+    width: 100%;
+    float: left;
+    color: #1771B0;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 15px 0;
+    min-height: 52px;
+}
+
+/* Conteúdo 3 */
+.conteudo_samir {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+    background: url('../../../uploads/2021/10/bg-slide.png') no-repeat;
+    background-position: right;
+    background-size: 50% 100%;
+}
+
+.conteudo_samir .texto {
+    float: left;
+}
+
+.conteudo_samir .loop {
+    padding: 40px 40px 40px 0;
+}
+
+.conteudo_samir .loop img {
+    width: 100%;
+}
+
+#sliderDoutor {
+    width: 100%;
+    float: left;
+}
+
+#sliderDoutor .listaDoutor {
+    width: 100%;
+    float: left;
+    padding: 0 40px;
+}
+
+#sliderDoutor .fa-arrow-left {
+    position: absolute;
+    font-size: 25px;
+    color: #002D47;
+    z-index: 1;
+    top: calc(50% - 17px);
+    cursor: pointer;
+    left: 0px;
+}
+
+#sliderDoutor .fa-arrow-right {
+    position: absolute;
+    font-size: 25px;
+    color: #002D47;
+    z-index: 1;
+    top: calc(50% - 17px);
+    cursor: pointer;
+    right: 0px;
+}
+
+/* Conteúdo 4 */
+.conteudo_instituto {
+    width: 100%;
+    float: left;
+    padding: 40px 0 0 0;
+}
+
+.conteudo_instituto .textoBox {
+    padding: 0 0 20px 0;
+}
+
+/* Conteudo 5 */
+.home_convenios {
+    width: 100%;
+    float: left;
+    padding: 0 0 50px 0;
+}
+
+.home_convenios #slideConvenios {
+    width: 100%;
+    float: left;
+    padding: 0 50px;
+}
+
+#slideConvenios .fa-arrow-left {
+    position: absolute;
+    font-size: 30px;
+    color: #002D47;
+    z-index: 1;
+    top: calc(50% - 17px);
+    cursor: pointer;
+    left: 0px;
+}
+
+#slideConvenios .fa-arrow-right {
+    position: absolute;
+    font-size: 30px;
+    color: #002D47;
+    z-index: 1;
+    top: calc(50% - 17px);
+    cursor: pointer;
+    right: 0px;
+}
+
+#slideConvenios li figure img {
+    filter: grayscale(1);
+}
+
+#slideConvenios li figure img:hover {
+    filter: grayscale(0);
+}
+
+@media (max-width: 768px) {
+
+    #paginaInicial .tituloPrincipal .borda {
+        margin: 15px 0;
+    }
+
+    /* Conteúdo 1 */
+    .conteudo_consulta {
+        padding: 20px 0;
+    }
+
+    .conteudo_consulta .texto {
+        margin: 0 0 30px 0;
+    }
+
+    /* Conteúdo 2 */
+    .conteudo_listagem ul {
+        padding: 0;
+        display: block;
+    }
+
+    .conteudo_listagem ul li {
+        margin: 0 5px 30px 5px;
+    }
+
+    /* Conteúdo 3 */
+    .conteudo_samir {
+        margin: 0;
+        background: none;
+        margin: 0 0 25px 0;
+    }
+
+    .conteudo_samir .container {
+        padding: 0;
+    }
+
+    .conteudo_samir .texto {
+        margin: 0 0 35px 0;
+    }
+
+    .conteudo_samir .loop {
+        padding: 15px;
+    }
+
+    /* Conteúdo 4 */
+    .conteudo_instituto .container {
+        padding: 0;
+    }
+
+    .conteudo_instituto figure {
+        margin: 15px 0;
+    }
+}

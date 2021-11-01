@@ -1,0 +1,347 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* { 
+	outline: none!important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textoBox {
+    width: 100%;
+    float: left;
+}
+
+a { 
+	text-decoration:none!important; 
+}
+
+a:hover { 
+	outline: none!important; 
+	text-decoration: none;
+}
+
+body { 
+    font-family: 'Poppins', sans-serif;
+	margin:0; 
+	padding:0;
+}
+
+.clear { 
+	clear:both;
+}
+
+img { 
+	max-width:100%!important; 
+	height:auto; 
+}
+
+.boxInterno {
+    width:100%;
+    float:left
+}
+
+p, span, li {
+	color: #828282;
+	font-size: 15px;
+	line-height: 180%;
+}
+
+strong {
+	color: #828282;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    font-size: 39px;
+    color: #1771B0;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    width: 100%;
+    font-size: 45px;
+    line-height: 150%;
+    color: #1771B0;
+    margin: 0;
+}
+
+/* Borda */
+
+.borda {
+    background: #002D47;
+    border-radius: 60px;
+    width: 230px;
+    height: 9px;
+    display: inline-block;
+}
+
+/* BreadCrums pro geral */
+.bread-crumbs-pagina {
+    padding: 14px 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+    background: #E3FAFF;
+}
+
+.bread-crumbs-pagina #breadcrumbs span {
+    color: #63C2D6;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bread-crumbs-pagina .breadcrumb_last {
+    text-transform: uppercase;
+    color: #002D47!important;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bread-crumbs-pagina #breadcrumbs {
+    margin: 0;
+    color: #63C2D6!important;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bread-crumbs-pagina #breadcrumbs a {
+    color: #63C2D6!important;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*********************************************
+** Botão
+*********************************************/
+
+.botaoGeral {
+    background: #002D47;
+    border-radius: 25px;
+    padding: 13px 30px;
+    border: 0;
+    color: #FFFFFF!important;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.botaoGeral i  {
+    color: #63C2D6;
+    padding-right: 5px;
+}
+
+/*********************************************
+** Hover Zoom
+*********************************************/
+
+.hoverZoom {
+	transition: all 0.2s linear;
+}
+
+.hoverZoom:hover {
+	transform: scale(1.03);
+}
+
+/* Conteúdo Contato */
+.conteudo_contato {
+    width: 100%;
+    float: left;
+}
+
+.conteudo_contato .tituloPrincipal {
+    text-align: end;
+}
+
+.conteudo_contato .bgForm {
+    float: left;
+    width: 100%;
+    background: url(../../../uploads/2021/10/bg-agenda.png) no-repeat;
+    background-size: cover;
+}
+
+.conteudo_contato h2 {
+    font-size: 40px;
+}
+
+.conteudo_contato .tituloPrincipal .borda {
+    margin: 10px 220px 20px 0;
+}
+
+.conteudo_contato textarea {
+    height: 125px;
+}
+
+/* Área de Contato - Imagem & Formulário */
+
+.bgForm .agendamento {
+    padding: 30px 0 10px 0!important;
+    float: left;
+}
+
+.bgForm .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgForm .container .imgAgendamento {
+    margin-top: -100px;
+    padding: 0;
+}
+
+.agendamento .wpcf7-form-control-wrap {
+	display: inline-block;
+	width: 100%;
+}
+
+.agendamento input[type=text],
+.agendamento input[type=email],
+.agendamento textarea {
+	width: 100%;
+	float: left;
+	padding: 6px 12px;
+	border: 0;
+}
+
+.agendamento textarea {
+	height: 125px;
+}
+
+.agendamento .col-sm-12 {
+	text-align: left;
+	margin-top: 20px;
+	position: relative;
+}
+
+.agendamento .col-sm-12 span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.agendamento .col-sm-12 .btnSubmit {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.agendamento .col-sm-12 input[type=submit] {
+	background: #63C2D6;
+    border-radius: 30px;
+    padding: 13px 30px;
+    border: 0;
+    color: #002D47!important;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.agendamento .col-sm-12 input[type=submit]:hover {
+	transform: scale(1.03);
+}
+
+.agendamento .col-sm-12 .ajax-loader {
+	position: absolute;
+    left: calc(50% - 12px);
+    top: 13px;
+    margin: 0;
+}
+
+.agendamento .wpcf7-not-valid-tip {
+	position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 11px;
+}
+
+.agendamento .wpcf7 form .wpcf7-response-output {
+	margin: 30px 0 0 0;
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    /* Tipografia */
+
+    h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    /* BreadCrums */
+
+    .bread-crumbs-pagina #breadcrumbs {
+        font-size: 13px;
+        line-height: 160%;
+        letter-spacing: 0;
+    }
+
+    .bread-crumbs-pagina #breadcrumbs a {
+        font-size: 13px;
+    }
+
+    .bread-crumbs-pagina #breadcrumbs span {
+        line-height: 160%;
+    }
+
+    .bread-crumbs-pagina #breadcrumbs .breadcrumb_last {
+        color: #828282!important;
+        font-size: 13px;
+    }
+
+    /* Botão Geral */
+    .listagemProdutos .botaoGeral {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Agendamento */
+    .conteudo_contato h2 {
+        font-size: 35px;
+    }
+
+    .conteudo_contato .tituloPrincipal {
+        text-align: center;
+    }
+
+    .conteudo_contato .tituloPrincipal .borda {
+        margin: 10px 0 20px 0;
+    }
+
+    .bgForm .container .imgAgendamento {
+        display: none;
+    }
+
+    .agendamento .col-sm-12 {
+        padding: 0 10px;
+    }
+
+    .bgForm .agendamento {
+        padding: 30px 0 30px 0!important;
+    }
+}

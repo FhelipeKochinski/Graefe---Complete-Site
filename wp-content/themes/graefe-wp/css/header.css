@@ -1,0 +1,635 @@
+
+/*********************************************
+** Header 
+*********************************************/
+
+/* Logo Topo */
+.topHeader #logo {
+    flex: 1;
+}
+
+/* Cabeçalho Topo */
+.nav-top {
+    background-color: #002D47;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.nav-top .container {
+    display: inline-flex;
+    justify-content: end;
+}
+
+.nav-top .linkHeader a{
+    color: #E3FAFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.nav-top i {
+    font-size: 20px;
+    color: #63C2D6;
+    margin-right: 5px;
+    line-height: 20px;
+}
+
+.nav-top .texto {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display:inline-block;
+    list-style: none;
+}
+
+.linkHeader {
+    padding-left: 15px;
+}
+
+/* Btn's superior */
+#menuPrincipal .btnSuperiores {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+    margin-left: 35px;
+}
+
+.btnSuperiores .linkHeader {
+    background: #002D47;
+    padding: 10px 20px 8px 20px;
+    border-radius: 30px;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+.btnSuperiores .linkHeader span,
+.btnSuperiores .linkHeader a {
+    color: #fff!important;
+}
+
+.btnSuperiores .linkHeader a i {
+	color: #63C2D6;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+/* Menu Principal */
+
+#header .container {
+    display: flex;
+	align-items: flex-end;
+}
+
+.topHeader {
+    float: left;
+    width: 100%;
+    background: #Fff;
+    padding: 10px 0 20px 0;
+}
+
+.topHeader #menuPrincipal {
+    flex: 1;
+    text-align: right;
+}
+
+.topHeader #menuPrincipal li {
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+}
+
+.topHeader #menu-menu-principal li a {
+    text-transform: uppercase;
+    color: #1771B0;
+    font-size: 15px;
+    padding: 5px 4px;
+    border-bottom: solid 4px transparent;
+    font-weight: 500;
+}
+
+#header .topHeader #boxMenu {
+	display: inline-block;
+}
+
+#header .topHeader #boxMenu ul li {
+	position: relative;
+}
+
+#header .topHeader #menu-menu-principal li a i {
+    color: #002D47;
+    margin-left: 5px;
+}
+
+.topHeader #menuPrincipal ul li a:hover {
+    color: black;
+}
+
+#header .topHeader #boxMenu ul li.current_page_item a,
+#header .topHeader #boxMenu ul li a:hover {
+    border-color: #002D47;
+    color: #002D47;
+}
+
+/* Submenu  */
+#menu-menu-principal .sub-menu {
+    padding-bottom: 7px;
+}
+
+#menu-menu-principal #menu-item-95 .sub-menu {
+    padding-left: 0;
+}
+
+#header .topHeader #boxMenu ul li:hover ul {
+	display: block;
+}
+
+#header .topHeader #boxMenu ul li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+    width: 250px;
+    left: 0;
+	z-index: 1;
+    border-radius: 10px;
+    padding: 5px;
+    background: #002D47;
+}
+
+#header .topHeader #boxMenu ul li ul li {
+	float: left;
+	width: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+#header .topHeader #boxMenu ul li ul li:not(:last-child) {
+    border-bottom: 1px solid #E3FAFF;
+}
+
+#header .topHeader #boxMenu ul li ul li:hover {
+    border: none;
+}
+
+#header .topHeader #boxMenu ul li ul li a {
+    float: left;
+    width: 100%;
+    color: #fff;
+    padding: 6px;
+    border: none!important;
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#header .topHeader #boxMenu ul li ul li a:hover {
+	background: #63C2D6;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Busca Menu*/
+
+#header .topHeader #buscaHeader i {
+    color: #002D47;
+    font-size: 20px;
+    margin: 0 0px 0 10px;
+    padding-bottom: 23px;
+    cursor: pointer;
+}
+
+/* Busca Full */
+
+#buscaFull {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.95);
+	z-index: 99;
+	display: none;
+}
+
+#buscaFull .boxInterno {
+	position : absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#buscaFull .boxInterno #fechaBusca {
+	position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#buscaFull .boxInterno #fechaBusca img {
+	width: 35px;
+}
+
+#buscaFull .boxInterno form {
+	width: 90%;
+	max-width: 500px;
+	position: relative;
+}
+
+#buscaFull .boxInterno form input {
+	float: left;
+    width: 100%;
+    background: none;
+    border: 0;
+    border-bottom: solid 1px #fff;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#buscaFull .boxInterno form button {
+	position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background: none;
+    border: 0;
+}
+
+#buscaFull .boxInterno form button i {
+	color: #63C2D6;
+    font-size: 24px;
+}
+
+/* Fecha menu */
+
+#header #fechaMenuMobile{
+    display: none;
+}
+
+/* Menu Mobile */
+
+#menuMobile {
+    display: none;
+}
+
+/************* Contato da Categorias *************/
+.modalContato {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.9);
+    display: none;
+    overflow: auto;
+}
+
+.modalContato .boxFlex {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 95%;
+    overflow: auto;
+}
+
+.modalContato .boxFlex #fechaFormulario {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.modalContato .boxFlex #fechaFormulario img {
+    width: 40px;
+}
+
+.modalContato .boxFlex .boxConteudo {
+    width: 95%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.modalContato .boxFlex .boxConteudo .internoModal {
+    width: 100%;
+    float: left;
+}
+
+.modalContato .boxFlex .boxConteudo .tituloModal  {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #1771B0;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.modalContato .boxFlex .boxConteudo .borda {
+    margin: 10px 0 30px 0;
+    height: 7px;
+}
+
+.modalContato .boxFlex .boxConteudo .formulario {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.modalContato .formulario .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContato .formulario .wpcf7-form-control-wrap {
+	display: inline-block;
+	width: 100%;
+}
+
+.modalContato .formulario input[type=text],
+.modalContato .formulario input[type=email],
+.modalContato .formulario textarea {
+	width: 100%;
+	float: left;
+	padding: 6px 12px;
+	border: 0;
+}
+
+.modalContato .formulario textarea {
+	height: 124px;
+}
+
+.modalContato .formulario .col-sm-12 .spanDiv {
+    text-align: left;
+}
+
+.modalContato .formulario .col-sm-12 .spanDiv span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.modalContato .formulario .col-sm-12 input[type=submit] {
+	background: #63C2D6;
+    border-radius: 30px;
+    padding: 13px 35px;
+    border: 0;
+    color: #002D47!important;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.modalContato .formulario .col-sm-12 input[type=submit]:hover {
+	transform: scale(1.03);
+}
+
+.modalContato .formulario .col-sm-12 .ajax-loader {
+	position: absolute;
+    left: calc(50% - 12px);
+    top: 13px;
+    margin: 0;
+}
+
+.modalContato .formulario .wpcf7-not-valid-tip {
+	position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 11px;
+}
+
+.modalContato .formulario .wpcf7 form .wpcf7-response-output {
+	margin: 30px 0 0 0;
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 12px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    /* Logo */
+    #logo img {
+        max-width: 80%!important;
+    }
+
+    /* Icones */
+    #buscaHeader {
+        margin: 15px 0;
+    }
+    
+    /* Cabeçalho Topo */
+    .nav-top {
+        display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .nav-top .linkHeader.email {
+        display: none;
+    }
+
+    .nav-top .linkHeader a {
+        font-size: 15px;
+    }
+
+    /* Menu Principal */
+    #header #menuPrincipal {
+        position: fixed;
+        top: 0;
+        right: -500px;
+        bottom: 0;
+        background-color: #002D47;
+        z-index: 99;
+        width: 300px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        padding: 20px 10px;
+        transition: all 0.2s linear;
+    }
+
+    #header #menuPrincipal.active {
+        right: 0;
+    }
+
+    .topHeader #menuPrincipal li {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #header .topHeader #boxMenu ul li ul li {
+        background: none;
+    }
+
+    #header .topHeader #boxMenu ul li ul li:not(:last-child) {
+        border: 0;
+    }
+
+    .topHeader #menuPrincipal ul li a {
+        border: none;
+        color: white;
+    }
+
+    #header .topHeader #menu-menu-principal li a i {
+        color: #fff;
+    }
+
+    #header #menuPrincipal #fechaMenuMobile {
+        display: block;
+        float: right;
+        width: 40px;
+        padding: 5px 10px 0 0;
+    }
+
+    #header #menuPrincipal #menu-menu-principal {
+        padding: 0 15px 0 15px;
+    }
+
+	/*Menu Mobile */
+    #header .topHeader #menuMobile {
+        cursor: pointer;
+        display: block;
+        margin: 15px 0;
+    }
+
+    #header .topHeader #menuMobile i{
+		font-size: 33px;
+    	color: #002D47;
+        padding-left: 15px;
+	}
+
+    #header .topHeader #boxMenu ul li.current_page_item a,
+    #header .topHeader #boxMenu ul li a:hover {
+        border: none;
+        color: #63C2D6;
+    }
+
+    /* Botões Superior */
+    #menuPrincipal .btnSuperiores {
+        margin: 35px 0 0 0;
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    
+    #agendamentoHeader {
+        text-align: left;
+    }
+    
+    .btnSuperiores .linkHeader {
+        background: #63C2D6;
+        margin-left: 0;
+    }
+
+    .btnSuperiores .linkHeader:first-child {
+        margin: 5px 0 15px 0;
+    }
+ 
+    .btnSuperiores .linkHeader span {
+        color: #002D47!important;
+    }
+
+    .btnSuperiores .linkHeader a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnSuperiores .linkHeader a i {
+        color: #1771B0;
+        margin-right: 5px;
+        padding-top: 5px;
+    }
+
+    /* Busca Menu*/
+    #header .topHeader #buscaHeader i {
+        padding: 0 15px;
+        font-size: 33px;
+    }
+
+    /* Submenu */
+	#header .topHeader #boxMenu ul li ul {
+		display: block;
+		position: relative;
+		left: auto;
+		top: auto;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 0 0;
+        background-color: #002D47;
+	}
+
+	#header .topHeader #boxMenu ul li ul::before {
+		display: none;
+	}
+
+	#header .topHeader #boxMenu ul li ul li {
+		position: relative;
+		padding-left: 10px;
+	}
+
+	#header .topHeader #boxMenu ul li ul li::before {
+		content: "»";
+		color: rgb(255, 255, 255);
+		position: absolute;
+		left: 0;
+		top: 7px;
+		font-size: 20px;
+	}
+
+    #header .topHeader #boxMenu ul li ul li a {
+        font-weight: 500;
+    }
+
+    #header .topHeader #boxMenu ul li ul li a:hover {
+        background-color: #002D47;
+        color: #63C2D6;
+    }
+
+    /* Modal */
+    .modalContato .boxFlex {
+        padding-bottom: 40px;
+    }
+
+    .modalContato .boxFlex .boxConteudo {
+        margin-top: 300px;
+        padding-top: 60px;
+    }
+
+    .modalContato .boxFlex .boxConteudo .tituloModal {
+        font-size: 30px;
+        line-height: 145%;
+    }
+
+    .modalContato .boxFlex #fechaFormulario {
+        top: 20px;
+        right: 15px;
+    }
+
+    .modalContato .formulario .col-sm-12 .spanDiv {
+        padding: 15px 5px 0 5px;
+    }
+}

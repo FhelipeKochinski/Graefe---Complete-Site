@@ -1,0 +1,79 @@
+/*********************************************
+** Clinica 
+*********************************************/
+
+/* Geral */
+#paginaClinica {
+    width: 100%;
+    float: left;
+    padding: 0 0 65px 0;
+}
+
+#paginaClinica .col-sm-6 {
+    float: left;
+}
+
+/* Conteúdo 1 */
+.conteudo_clinica {
+    width: 100%;
+    float: left;
+    padding: 55px 0 40px 0;
+}
+
+.conteudo_clinica .borda {
+    margin: 15px 0 40px;
+}
+
+/* Conteúdo 2 */
+.conteudo_olho {
+    width: 100%;
+    float: left;
+    background: #E3FAFF;
+    padding: 60px 0;
+    margin: 0 0 35px 0;
+}
+
+.conteudo_olho h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 135%;
+    color: #002D47;
+}
+
+.conteudo_olho .icone {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    
+    /* Conteúdo 1 */
+    .conteudo_clinica {
+        padding: 35px 0 35px 0;
+    }
+
+    .conteudo_clinica .container,
+    .conteudo_olho .container {
+        padding: 0;
+    }
+
+    .conteudo_clinica .borda {
+        margin: 15px 0 20px;
+    }
+
+    .conteudo_clinica figure {
+        padding: 20px 15px 0 15px;
+    }
+
+    /* Conteúdo 2 */
+    .conteudo_olho {
+        padding: 35px 0;
+        margin: 0px 0 20px 0;
+    }
+
+    .conteudo_olho h2 {
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+}

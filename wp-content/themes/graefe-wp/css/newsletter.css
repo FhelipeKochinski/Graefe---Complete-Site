@@ -1,0 +1,153 @@
+/* Newsletter */
+/* CSS Document */
+
+#entreEmContato {
+    width: 100%;
+    float: left;
+    margin: 0 0 120px 0;
+    background: #F8F9FA;
+    padding: 50px;
+}
+
+/* Icone envelope */
+#entreEmContato .imagem i {
+    font-size: 92px;
+    color: #415364;
+    display: flex;
+    justify-content: center;
+}
+
+/* Formulário Blog */
+#entreEmContato .formulario .superiorBox span {
+    color:#828282;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#entreEmContato .wpcf7-list-item-label {
+    font-size: 17px;
+}
+
+
+#entreEmContato .wpcf7 form .wpcf7-response-output {
+	margin: 30px 0 0 0;
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    color: #828282;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px;
+    text-align: center;
+}
+
+
+#entreEmContato .col-sm-4 {
+    padding: 15px 0 0 150px;
+}
+
+.wpcf7-list-item {
+    margin: 0;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 4px 5px 0px 0;
+}
+
+.superiorBox {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#entreEmContato .inferiorBox {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    padding: 0;
+}
+
+#entreEmContato .inferiorBox .submitBlog {
+    display: flex;
+    justify-content: center;
+}
+
+#entreEmContato .inferiorBox .submitBlog input {
+    border-radius: 10px;
+    color: #F3F0EB;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #002D47;
+    border: none;
+    font-weight: 500;
+}
+
+.colEsquerdo {
+    padding-left: 0;
+}
+
+.colDireito {
+    padding: 0;
+}
+
+.colEsquerdo input,
+.colDireito input {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #333;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 25px 15px;
+    height: 38px;
+    width: 100%;
+    line-height: 1.3;
+}
+
+/* Submit Botão */
+#entreEmContato .formulario .wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    #entreEmContato {
+        margin: 0;
+        padding: 0;
+    }
+
+    #entreEmContato .formulario {
+        padding: 10px;
+    }
+
+    #entreEmContato .col-sm-4 {
+        padding: 0;
+    }
+
+    .colEsquerdo {
+        padding: 0;
+    }
+
+    .colEsquerdo input,
+    .colDireito input {
+        margin-bottom: 15px;
+    }
+
+    #entreEmContato .wpcf7-list-item-label {
+        font-size: 15px;
+    }
+
+    #entreEmContato .inferiorBox .submitBlog {
+        text-align: center;
+        display: block;
+        padding: 10px 0;
+    }
+
+    #entreEmContato .wpcf7 form .wpcf7-response-output {
+        margin: 0 0 25px 0;
+    }
+
+}

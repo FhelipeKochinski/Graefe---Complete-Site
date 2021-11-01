@@ -1,0 +1,155 @@
+/*********************************************
+** Quem Somos
+*********************************************/
+
+/* Geral */
+#paginaQuemSomos {
+    width: 100%;
+    float: left;
+}
+
+.textoBox {
+    width: 100%;
+    float: left;
+}
+
+.tituloPrincipal {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 30px;
+}
+
+.tituloPrincipal .titulo {
+    margin: 0 0 25px 0;
+}
+
+.missao .tituloPrincipal .borda,
+.qualidade .tituloPrincipal .borda {
+    display: none;
+}
+
+.missao .tituloPrincipal,
+.qualidade .tituloPrincipal {
+    display: flex;
+    justify-content: center;
+}
+
+/* Borda */
+
+.tituloPrincipal .borda {
+    background: #323a4d;
+    border-radius: 60px;
+    width: 85px;
+    height: 5px;
+    display: inline-block;
+}
+
+/* Área de Conteúdo 1 */
+.conteudo_quemSomos {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    margin: 10px 0 10px 0;
+}
+
+.conteudo_quemSomos .subtitulo {
+    float: left;
+    width: 100%;
+    color: #323a4d;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 165%;
+    margin: 0 0 20px;
+}
+
+/* Área de Conteúdo 2 */
+.missao {
+    float: left;
+    width: 100%;
+    background: #f7efec;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.missao .boxInterno {
+    display: flex;
+    justify-content: center;
+}
+
+.missao .boxInterno h2 {
+    display: inline-block;
+    width: 500px;
+    max-width: 100%;
+    color: #323a4d;
+    border-bottom: solid 1px #dfdf42;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#paginaQuemSomos .missao .textoBox p {
+    font-weight: 600;
+    color: #323A4D;
+    font-size: 16px;
+}
+
+/* Área de Conteúdo 3 */
+.qualidade {
+    float: left;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.qualidade .boxInterno {
+    display: flex;
+    justify-content: center;
+}
+
+.qualidade .boxInterno h2 {
+    display: inline-block;
+    width: 500px;
+    max-width: 100%;
+    color: #323a4d;
+    border-bottom: solid 1px #dfdf42;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.qualidade .tituloPrincipal {
+    margin: 40px 0 35px 0;
+}
+
+@media (max-width: 768px) {
+
+    /* Quem Somos */
+    .conteudo_quemSomos {
+        padding: 30px 0 20px;
+    }
+
+    .conteudo_quemSomos figure {
+        margin-top: 20px;
+        float: left;
+        width: 100%;
+    }
+
+    /* Missão */
+
+    .missao .boxInterno h2 {
+        width: 300px;
+    }
+
+    .missao .tituloPrincipal {
+        margin: 0 0 0 20px;
+    }
+
+    /* Qualidade */
+    .qualidade .boxInterno h2 {
+        width: 300px;
+    }
+}

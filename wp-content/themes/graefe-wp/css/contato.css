@@ -1,0 +1,182 @@
+/*********************************************
+** Contato
+*********************************************/
+
+/* Geral */
+#pagina_contato {
+	float: left;
+	width: 100%;
+	padding: 50px 0 90px 0;
+}
+
+#pagina_contato h1 {
+	margin-bottom: 20px;
+}
+
+#pagina_contato .borda {
+	margin-bottom: 20px;
+}
+
+/* Bloco Inicial */
+.blocoInicial {
+	float: left;
+	width: 100%;
+}
+
+.blocoInicial .container {
+	background: url('../../../uploads/2021/10/vector-circular.png');
+	background-position: right -85%;
+}
+
+.blocoInicial .texto {
+	float: left;
+	width: 100%;
+}
+
+.blocoInicial .boxInterno {
+	padding: 0 0 20px 0;
+}
+
+/* Formulário */
+#pagina_contato .formulario {
+	float: left;
+    width: 100%;
+    text-align: center;
+	background: url('../../../uploads/2021/10/bg-contato.png') no-repeat;
+    padding: 50px 0;
+}
+
+#pagina_contato .boxContato {
+	background: #323A4D;
+}
+
+#pagina_contato  .formulario .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagina_contato .formulario .wpcf7-form-control-wrap {
+	display: inline-block;
+	width: 100%;
+}
+
+#pagina_contato .formulario input[type=text],
+#pagina_contato .formulario input[type=email],
+#pagina_contato .formulario textarea {
+	width: 100%;
+	float: left;
+	padding: 6px 12px;
+	border: 0;
+}
+
+#pagina_contato .formulario textarea {
+	height: 126px;
+}
+
+#pagina_contato .formulario .col-sm-12 {
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+}
+
+#pagina_contato .formulario .col-sm-12 input[type=submit] {
+	background: #63C2D6;
+    border-radius: 25px;
+    padding: 16px 55px;
+    border: 0;
+    color: #002D47!important;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#pagina_contato .formulario .col-sm-12 input[type=submit]:hover {
+	transform: scale(1.03);
+}
+
+#pagina_contato .formulario .col-sm-12 .ajax-loader {
+	position: absolute;
+    left: calc(50% - 12px);
+    top: 13px;
+    margin: 0;
+}
+
+#pagina_contato .formulario .wpcf7-not-valid-tip {
+	position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 11px;
+}
+
+#pagina_contato .formulario .wpcf7 form .wpcf7-response-output {
+	margin: 30px 0 0 0;
+    float: left;
+    width: 100%;
+    border-width: 1px;
+    color: #fff;
+	font-size: 14px;
+    font-weight: 400;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Mapa */
+.boxMapa {
+	float: left;
+	width: 100%;
+}
+
+.boxMapa iframe {
+	width: 100%;
+	float: left;
+	height: 500px;
+}
+
+/* Contato Enviado */
+.contatoEnviado {
+	float: left;
+	width: 100%;
+	margin: 0 0 50px 0;
+	text-align: center;
+}
+
+.contatoEnviado span {
+	font-size: 18px;
+	color: green;
+}
+
+@media (max-width: 768px) {
+	
+	/* Geral */
+	#pagina_contato {
+		padding: 30px 0 45px 0;
+	}
+
+	/* Formulário */
+	#pagina_contato .formulario {
+		padding: 30px 0 20px 0;
+	}
+
+	.formulario .container .col-sm-8 {
+		padding: 0;
+	}
+
+	#pagina_contato .formulario .col-sm-12 {
+		margin-top: 15px;
+	}
+
+	.formulario input[type=text], 
+	.formulario input[type=email], 
+	.formulario textarea {
+		padding: 10px 12px;
+	}
+
+	#pagina_contato .formulario .wpcf7 form .wpcf7-response-output {
+		color: black;
+		margin: 40px 0 0 0;
+	}
+	
+	
+}

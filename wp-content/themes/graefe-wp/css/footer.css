@@ -1,0 +1,274 @@
+/*********************************************
+** Footer 
+*********************************************/
+
+/* Geral */
+#footer {
+	float: left;
+	width: 100%;
+	padding: 40px 0;
+	background: url('../../../uploads/2021/10/Rectangle-46.png') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#footer .linhaTopo {
+	position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: #63C2D6;
+}
+
+#footer .container {
+	position: relative;
+	padding: 0;
+}
+
+/* Botão Subir */
+#footer .botaoSubir {
+	position: absolute;
+	right: 15px;
+	top: -60px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #63C2D6;
+	cursor: pointer;
+}
+
+#footer .botaoSubir i {
+	color: #fff;
+	font-size: 30px;
+	line-height: 100%;
+	margin-top: -5px;
+}
+
+/* Títulos */
+#footer .tituloFooter {
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+    border-bottom: solid 5px #2EC1E4;
+}
+
+.dadosFooter .institucional .tituloFooter {
+	margin-bottom: 5px!important;;
+}
+
+/* Menus */
+#footer .menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#footer .menu ul li {
+	color: #fff;
+	list-style: disc!important;
+}
+
+#footer .menu ul li a {
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#footer .menu .col-sm-6 {
+	padding: 0 20px;
+	margin: 20px 0 0 0;
+	float: left;
+}
+
+/* Contatos */
+#footer .contatos a {
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 5px;
+}
+
+#footer .contatos a i {
+	color: #63C2D6;
+    font-size: 18px;
+    margin: 0 10px 4px 0;
+}
+
+#footer .contatos a span {
+	color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Redes Sociais */
+#footer .redesSociais {
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+
+#footer .redesSociais a i {
+	color: #63C2D6;
+	font-size: 28px;
+	transition: all 0.1s linear 0s;
+}
+
+#footer .redesSociais a .fa-facebook-square {
+	padding-left: 10px;
+}
+
+#footer .redesSociais a .facebook {
+	padding: 0;
+}
+
+#footer .redesSociais a i:hover {
+	transform: scale(1.1);
+}
+
+#footer .redesSociais #logoFooter {
+	float: left;
+	margin-top: 25px;
+}
+
+/* Botão Agendamento */
+.btnInferior {
+	width: 100%;
+    float: left;
+	margin: 25px 0 15px 0;
+}
+
+.btnInferior .agendamentoBtn {
+	float: left;
+    background: #63C2D6;
+    padding: 12px 25px;
+    border-radius: 30px;
+}
+
+.btnInferior #agendamentoFooter a {
+	margin: 0;
+}
+
+.btnInferior #agendamentoFooter a i {
+	color: #1771B0;
+	font-size: 20px;
+    margin: 0 5px 2px 0;
+}
+
+.btnInferior #agendamentoFooter a span {
+	color: #002D47;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Dados Footer div */
+#footer .dadosFooter {
+	width: 100%;
+	float: left;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.dadosFooter .logo .doutorUm,
+.dadosFooter .logo .doutorDois{
+	width: 100%;
+	float: left;
+}
+
+.dadosFooter .logo .doutorUm {
+	margin-top: 25px;
+}
+
+.dadosFooter .logo .doutorUm span,
+.dadosFooter .logo .doutorDois span {
+	color: #1771B0;
+}
+
+.dadosFooter .logo .doutorUm p,
+.dadosFooter .logo .doutorDois p {
+	color: #fff;
+	font-weight: 300;
+}
+
+/* Sub Footer */
+#subfooter {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+}
+
+/* Botão Flutuante */
+#whatsappFlutua {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: 0 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#whatsappFlutua img {
+	width: 55px;
+}
+
+@media (max-width: 768px) {
+
+	/* Geral */
+	#footer {
+		padding: 30px 0!important;
+	}
+
+	#whatsappFlutua {
+		left: 295px;
+	}
+
+	/* Menus */
+	#footer .menu,
+	#footer .contatos {
+		float: left;
+		width: 100%;
+	}
+
+	#footer .menu {
+		margin: 25px 0;
+	}
+
+	#footer .redesSociais {
+		float: left;
+		width: 100%;
+	}
+
+	/* Exames */
+	#footer .menu .col-sm-6:last-child {
+		margin: 0;
+	}
+
+	/* Botão Inferior */
+	.btnInferior {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0 20px 0;
+	}
+	
+	/* Logo */
+	#footer #logoFooter {
+		position: static;
+		display: flex;
+		justify-content: center;
+		padding-bottom: 10px;
+	}
+
+	/* Dados */
+	#footer .dadosFooter{
+		display: inline-block;
+	} 
+}
